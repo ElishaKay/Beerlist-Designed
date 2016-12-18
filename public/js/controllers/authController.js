@@ -5,6 +5,9 @@ app.controller('AuthCtrl', ['$scope', '$state', 'auth', function($scope, $state,
     });
   };
   $scope.logIn = function(){
-      auth.logIn($scope.user)
+  		debugger;
+  		console.log("you clicked submit");
+
+      auth.logIn($scope.user);
     };
 }]);
